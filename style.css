@@ -1,11 +1,11 @@
 /* Set the size of the div element that contains the map */
 #map {
-  height: 80%;
+  height: 90%;
   /* height: 800px; */
   width: 100%; 
-  /* position: fixed; */
+  position: fixed;
   /* z-index: -1; */
-  /* bottom: 0; */
+  bottom: 0;
   /* position: relative; */
 }
 
@@ -23,13 +23,12 @@
   padding: 0;
   cursor: pointer;
   position: fixed;
-  top: 50%; /* 画面上からの距離 */
+  top: 90%; /* 画面上からの距離 */
   right: 20px; /* 画面右からの距離 */
 }
-
 .direction-button {
-  max-width: 40px; /* ボタン内での最大幅 */
-  max-height: 40px; /* ボタン内での最大高さ */
+  max-width: 50px; /* ボタン内での最大幅 */
+  max-height: 50px; /* ボタン内での最大高さ */
 }
 
 

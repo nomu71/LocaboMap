@@ -15,6 +15,7 @@ function initMap() {
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: false,
+      clickableIcons:false
     });
 
     // restaurant配列の定義
