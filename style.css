@@ -1,0 +1,144 @@
+/* Set the size of the div element that contains the map */
+#map {
+  height: 80%;
+  /* height: 800px; */
+  width: 100%; 
+  /* position: fixed; */
+  /* z-index: -1; */
+  /* bottom: 0; */
+  /* position: relative; */
+}
+
+/* #location-search{
+  position: absolute;
+  top: 10%;
+} */
+
+
+
+/* 現在地ボタンに設定するcss */
+#direction-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  position: fixed;
+  top: 50%; /* 画面上からの距離 */
+  right: 20px; /* 画面右からの距離 */
+}
+
+.direction-button {
+  max-width: 40px; /* ボタン内での最大幅 */
+  max-height: 40px; /* ボタン内での最大高さ */
+}
+
+
+/* モーダル要素に設定する仮css */
+
+/* .resto-modal {
+display: none;
+position: fixed;
+right: 0;
+bottom: 2%;
+left: 0;
+overflow: auto;
+z-index: 99999;
+animation-name: show;
+animation-duration: 0.5s
+}
+
+.resto-modal-content {
+position: relative;
+background-color: #fff;
+margin: 10% auto;
+border: 1px solid #888;
+width: 90%;
+}
+
+@keyframes show {
+0% {
+  display: none;
+  opacity: 0;
+}
+100% {
+  display: block;
+  opacity: 1;
+}
+}
+
+.resto-modal-header {
+padding: 12px;
+background-color: grey;
+color: white;
+}
+
+.resto-modal-body {
+padding: 12px;
+}
+
+.resto-modal-close {
+color: #aaa;
+float: right;
+font-size: 16px;
+}
+
+.resto-modal-close:hover,
+.resto-modal-close:focus {
+color: black;
+cursor: pointer;
+} */
+
+
+
+/* 場所検索機能（オートコンプリート）に設定するcss */
+/* .pac-card {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  font-family: Roboto;
+  padding: 0;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+} */
